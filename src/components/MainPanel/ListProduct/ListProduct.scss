@@ -1,0 +1,46 @@
+@import './../../../scss/variable.scss';
+
+.list-product{
+    .rdt_Table{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+
+        .rdt_TableHeadRow{
+            background-color: lightgray;
+            .rdt_TableCol{
+                font-weight: bold;
+                 
+            }
+        }
+
+        .rdt_TableBody{
+            .rdt_TableRow{
+                input{
+                    width: 100%;
+                }
+
+                .cancel-btn, .save-btn{
+                  color:white;
+                  border: 1px solid red;
+                  background-color: red;
+                  border-radius: 2px;
+                  padding: 5px;
+                }
+
+                .save-btn{
+                    border: 1px solid $theme-color;
+                    background-color: $theme-color;
+                    margin-right: 5px;
+                }
+
+            }
+        }
+    }
+
+    .material-icons-outlined{
+        color: $theme-color;
+        cursor: pointer;
+        font-size: 16px;
+        
+    }
+}

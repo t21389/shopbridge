@@ -1,0 +1,39 @@
+{"data": {
+  "0": {
+    "id": 0,
+    "code": "EL01",
+    "category": "Electronics",
+    "price": "1000",
+    "brandname": "iBall",
+    "quantity": "10",
+    "description": "Keyboard"
+  },
+  "1": {
+    "id": 1,
+    "code": "EL02",
+    "category": "Electronics",
+    "price": "5000",
+    "brandname": "apple",
+    "quantity": "5",
+    "description": "Headphone"
+  },
+  "2": {
+    "id": 2,
+    "code": "BT01",
+    "category": "Beauty",
+    "price": "149",
+    "brandname": "Himalaya",
+    "quantity": "100",
+    "description": "Face Wash"
+  },
+  "3": {
+    "id": 3,
+    "code": "BT02",
+    "category": "Beauty",
+    "price": "599",
+    "brandname": "Livon",
+    "quantity": "30",
+    "description": "Shampoo"
+  }
+}
+}

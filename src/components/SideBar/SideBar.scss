@@ -1,0 +1,27 @@
+@import "./../../scss/variable.scss";
+
+.sidebar {
+	height: calc(100vh - 88px);
+	position: fixed;
+	box-shadow: 0px 16px 15px 0px rgba(0, 0, 0, 0.7);
+
+	ul {
+		padding: 0;
+
+		.item {
+			list-style-type: none;
+			padding: 10px 20px;
+			cursor: pointer;
+
+			&.active {
+				background-color: lightgray;
+			}
+		}
+	}
+
+	.material-icons-outlined {
+		color: $theme-color;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+}

@@ -1,0 +1,18 @@
+.shopbridge-home{
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: space-between;
+    position: relative;
+	top: 88px;
+
+    .sidebar{
+        width: 25%;
+       
+
+    }
+
+    .mainpanel{
+        width:75%;
+
+    }
+}
