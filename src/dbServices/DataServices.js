@@ -8,7 +8,6 @@ const DataServices = () => {
 		},
 
 		create: function (value) {
-			// return db.push(5,value);
 			return db.child(value.id).update(value);
 		},
 
@@ -17,7 +16,6 @@ const DataServices = () => {
 		},
 
 		updateAll: function (key, value) {
-            
 			return db.child(key).update(value);
 		},
 
